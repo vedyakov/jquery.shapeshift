@@ -162,7 +162,7 @@
           child = {
             i: i,
             el: $child,
-            colspan: parseInt($child.attr("data-ss-colspan")) || 1,
+            colspan: parseInt($child.data("ss-colspan")) || 1,
             height: $child.outerHeight()
           };
           parsedChildren.push(child);
